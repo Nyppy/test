@@ -1,4 +1,4 @@
-# mywebar-frontend-base
+# xxx-video
 
 ## Project setup
 ```

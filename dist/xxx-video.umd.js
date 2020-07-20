@@ -1,5 +1,14 @@
-module.exports =
-/******/ (function(modules) { // webpackBootstrap
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(typeof exports === 'object' && typeof module === 'object')
+		module.exports = factory();
+	else if(typeof define === 'function' && define.amd)
+		define([], factory);
+	else if(typeof exports === 'object')
+		exports["xxx-video"] = factory();
+	else
+		root["xxx-video"] = factory();
+})((typeof self !== 'undefined' ? self : this), function() {
+return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -221,32 +230,28 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"0e7ff544-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=template&id=739f7284&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('Header')}
-var staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"0e7ff544-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=template&id=21e32c42&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"app"}},[_c('h4',[_vm._v("XXX-VIEIO.COM")])])}]
 
 
-// CONCATENATED MODULE: ./src/App.vue?vue&type=template&id=739f7284&
+// CONCATENATED MODULE: ./src/App.vue?vue&type=template&id=21e32c42&
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"0e7ff544-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Header.vue?vue&type=template&id=6c59d6ed&scoped=true&
-var Headervue_type_template_id_6c59d6ed_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._v(" HOP TEST ")])}
-var Headervue_type_template_id_6c59d6ed_scoped_true_staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./src/components/Header.vue?vue&type=template&id=6c59d6ed&scoped=true&
-
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Header.vue?vue&type=script&lang=js&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=script&lang=js&
 //
 //
 //
 //
 //
 //
-/* harmony default export */ var Headervue_type_script_lang_js_ = ({
-  name: "header-page"
+/* harmony default export */ var Appvue_type_script_lang_js_ = ({
+  name: 'App'
 });
-// CONCATENATED MODULE: ./src/components/Header.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_Headervue_type_script_lang_js_ = (Headervue_type_script_lang_js_); 
+// CONCATENATED MODULE: ./src/App.vue?vue&type=script&lang=js&
+ /* harmony default export */ var src_Appvue_type_script_lang_js_ = (Appvue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./src/App.vue?vue&type=style&index=0&lang=css&
+var Appvue_type_style_index_0_lang_css_ = __webpack_require__("034f");
+
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
 /* globals __VUE_SSR_CONTEXT__ */
 
@@ -347,43 +352,6 @@ function normalizeComponent (
   }
 }
 
-// CONCATENATED MODULE: ./src/components/Header.vue
-
-
-
-
-
-/* normalize component */
-
-var component = normalizeComponent(
-  components_Headervue_type_script_lang_js_,
-  Headervue_type_template_id_6c59d6ed_scoped_true_render,
-  Headervue_type_template_id_6c59d6ed_scoped_true_staticRenderFns,
-  false,
-  null,
-  "6c59d6ed",
-  null
-  
-)
-
-/* harmony default export */ var Header = (component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=script&lang=js&
-//
-//
-//
-//
-
-/* harmony default export */ var Appvue_type_script_lang_js_ = ({
-  name: 'App',
-  components: {
-    Header: Header
-  }
-});
-// CONCATENATED MODULE: ./src/App.vue?vue&type=script&lang=js&
- /* harmony default export */ var src_Appvue_type_script_lang_js_ = (Appvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/App.vue?vue&type=style&index=0&lang=css&
-var Appvue_type_style_index_0_lang_css_ = __webpack_require__("034f");
-
 // CONCATENATED MODULE: ./src/App.vue
 
 
@@ -393,7 +361,7 @@ var Appvue_type_style_index_0_lang_css_ = __webpack_require__("034f");
 
 /* normalize component */
 
-var App_component = normalizeComponent(
+var component = normalizeComponent(
   src_Appvue_type_script_lang_js_,
   render,
   staticRenderFns,
@@ -404,7 +372,7 @@ var App_component = normalizeComponent(
   
 )
 
-/* harmony default export */ var App = (App_component.exports);
+/* harmony default export */ var App = (component.exports);
 // CONCATENATED MODULE: ./src/main.js
 
 /* harmony default export */ var main = (App);
@@ -418,4 +386,5 @@ var App_component = normalizeComponent(
 /***/ })
 
 /******/ });
-//# sourceMappingURL=mywebar-frontend-base.common.js.map
+});
+//# sourceMappingURL=xxx-video.umd.js.map

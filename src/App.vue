@@ -1,26 +1,23 @@
 <template>
-    <Header/>
+  <div id="app">
+    <h4>XXX-VIEIO.COM</h4>
+  </div>
 </template>
 
 <script>
-import Header from './components/Header.vue';
 
 export default {
   name: 'App',
-  components: {
-    Header
-  }
 }
 </script>
 
 <style>
-.base-component {
+#app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  width: 100%;
-  min-height: 60px;
+  margin-top: 60px;
 }
 </style>
