@@ -1,13 +1,13 @@
 {
-  "name": "xxx-video",
+  "name": "mywebar-frontend-base",
   "version": "0.1.0",
   "private": true,
-  "main": "./dist/xxx-video.common.js",
+  "main": "./dist/mywebar-frontend.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-lib": "vue-cli-service build --target lib --name xxx-video src/main.js",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build-lib": "vue-cli-service build --target lib --name mywebar-frontend-base src/main.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
