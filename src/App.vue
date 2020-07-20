@@ -1,13 +1,5 @@
 <template>
-    <Header 
-      v-if="name=='header'"
-      :loader="flag_loader"
-      :menu="flag_menu"
-      :url="urlHeader"
-      :support="flag_support"
-      :background="flag_background"
-      :parent_component="parent_component"
-    />
+    <Header/>
 </template>
 
 <script>
@@ -15,24 +7,6 @@ import Header from './components/Header.vue';
 
 export default {
   name: 'App',
-  data() {
-    let data = {
-      // header
-  
-    }
-    return data;
-  },
-  props: [
-    "name",
-    "flag_loader",
-    "flag_menu",
-    "flag_support",
-    "flag_background",
-    "urlHeader", // object: urlHeader: {logo: '',dashboard: '',account: ''}
-
-    "projects",
-    "parent_component"
-  ],
   components: {
     Header
   }
