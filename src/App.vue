@@ -1,11 +1,12 @@
 <template>
   <div id="app">
     <h4>XXX-VIEIO.COM</h4>
+    <Test/>
   </div>
 </template>
 
 <script>
-
+import Test from './components/Test.vue'
 export default {
   name: 'App',
 }
