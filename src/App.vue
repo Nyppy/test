@@ -1,7 +1,5 @@
 <template>
   <div id="base-component">
-      <!-- v-if="name=='header'" -->
-
     <Header
       :loader="flag_loader"
       :menu="flag_menu"

@@ -137,7 +137,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 @media (orientation: landscape) {
   .img-width-logo {
     width: 60vh !important;
