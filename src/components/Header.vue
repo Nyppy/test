@@ -4,9 +4,15 @@
       <router-link :to="url.logo">
         <img
           class="img-width-logo"
-          src="@/assets/img/Header-logo.png"
+          src="../assets/img/Header-logo.png"
           alt="Logo"
         />
+
+        <img
+              class="img-width-logo-user"
+              src="../assets/img/Logo-user.png"
+              alt="Logo"
+            />
       </router-link>
 
       <div
