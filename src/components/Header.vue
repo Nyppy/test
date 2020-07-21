@@ -11,7 +11,7 @@
 
       <img
           class="img-width-logo"
-          src="../assets/img/Header-logo.png"
+          src="../assets/img/Devar.png"
           alt="Logo"
         />
 
@@ -25,7 +25,7 @@
         <div v-if="flag_support">
           <h4 class="support">Support</h4>
         </div>
-        
+
         <b-dropdown
           v-if="flag_menu"
           id="dropdown-header"
