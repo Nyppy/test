@@ -4,7 +4,7 @@
       <router-link :to="url.logo">
         <img
           class="img-width-logo"
-          src="/img/Header-logo.png"
+          src="../assets/img/Header-logo.png"
           alt="Logo"
         />
       </router-link>
@@ -34,7 +34,7 @@
           <template v-slot:button-content>
             <img
               class="img-width-logo-user"
-              src="/img/Logo-user.png"
+              src="../assets/img/Logo-user.png"
               alt="Logo"
             />
           </template>
