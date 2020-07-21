@@ -1,17 +1,34 @@
 <template>
   <div id="app">
-    <HelloWorld/>
-    (_+_+_+_+_+_+_)
+    <Header
+      :flag_loader="false"
+      :flag_menu="true"
+      :flag_fixed="false"
+      :flag_support="false"
+      :flag_background="true"
+      :urlHeader="urlHeader"
+    />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Header
+  },
+  data() {
+    const data = {
+      urlHeader: {
+        logo: '',
+        dashboard: '',
+        account: ''
+      }
+    }
+
+    return data;
   }
 }
 </script>
