@@ -1,0 +1,93 @@
+@media (orientation: landscape) {
+  .img-width-logo {
+    width: 60vh !important;
+    max-width: 318px;
+  }
+}
+
+.width-men {
+  left: -64% !important;
+}
+.header {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  min-height: 64px;
+  background: linear-gradient(to right, #3d72ff, #14beff);
+  z-index: 99999999;
+}
+
+.fix_position {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.img-width-logo {
+  display: flex;
+  width: 36vh;
+  max-width: 318px;
+}
+
+.img-width-logo-user {
+  width: 40%;
+}
+
+.wrapper-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.logo-user {
+  color: #fff;
+  font-size: 18px;
+  margin-left: 4px;
+}
+
+.user-block {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.block-user-data {
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  flex-direction: column;
+  padding-left: 24px;
+}
+
+.user-name {
+  color: #0078d7;
+  font-weight: 900;
+  font-size: 16px;
+  overflow: hidden;
+  width: 90%;
+  text-overflow: ellipsis;
+}
+
+.user-email {
+  overflow: hidden;
+  color: #767676;
+  width: 90%;
+  text-overflow: ellipsis;
+}
+
+.background-black {
+  position: absolute;
+  z-index: 9;
+  top: 8vh;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.29);
+  overflow: hidden;
+}
+
+.support {
+  color: #fff;
+}

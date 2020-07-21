@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="base-component">
       <!-- v-if="name=='header'" -->
 
     <Header
@@ -17,7 +17,7 @@
 import Header from './components/Header.vue'
 
 export default {
-  name: 'App',
+  name: 'base-component',
   props: [
     "name",
     "flag_loader",
@@ -42,7 +42,7 @@ export default {
 </script>
 
 <style>
-#app {
+#base-component {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
