@@ -1,5 +1,5 @@
 <template>
-  <div :class="[{ fix_position: fixed }, 'header']">
+  <div :class="[{ fix_position: flag_fixed }, 'header']">
     <div class="wrapper-content m-2">
       <router-link :to="url.logo">
         <img
@@ -16,11 +16,11 @@
           justify-content: center;
         "
       >
-        <div v-if="support">
+        <div v-if="flag_support">
           <h4 class="support">Support</h4>
         </div>
         <b-dropdown
-          v-if="menu"
+          v-if="flag_menu"
           id="dropdown-header"
           toggle-class="text-decoration-none bg-transparent border-0 m-0 p-0"
           menu-class="border-0"
@@ -58,9 +58,9 @@
     
     <PopupTarif v-if="isplanPopup" :close="planPopupShow"></PopupTarif>
 
-    <Background v-if="background"></Background>
+    <Background v-if="flag_background"></Background>
 
-    <Loader v-show="loader"></Loader> -->
+    <Loader v-show="flag_loader"></Loader> -->
   </div>
 </template>
 
@@ -79,12 +79,12 @@ import logo from '../assets/img/Header-logo.png'
 export default {
   name: "header-page",
   props: [
-    "fixed", 
-    "loader", 
-    "menu", 
+    "flag_fixed", 
+    "flag_loader", 
+    "flag_menu", 
     "url", 
-    "support", 
-    "background",
+    "flag_support", 
+    "flag_background",
     "parent_component"
   ],
   components: {
