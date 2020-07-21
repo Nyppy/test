@@ -4,7 +4,7 @@
       <router-link :to="url.logo">
         <img
           class="img-width-logo"
-          src="../assets/img/Header-logo.png"
+          :src="logoHeader"
           alt="Logo"
         />
       </router-link>
@@ -74,7 +74,7 @@ import VueCookies from "vue-cookies";
 // import Background from './Background.vue'
 // import Loader from './Loader.vue'
 
-import 'bootstrap-vue'
+import logo from '../assets/img/Header-logo.png'
 
 export default {
   name: "header-page",
@@ -99,6 +99,7 @@ export default {
       email: "john@mail.com",
       flag_help_popup: false,
       isplanPopup: false,
+      logoHeader: logo
     };
     return data;
   },
