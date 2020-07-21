@@ -7,13 +7,13 @@
           src="../assets/img/Header-logo.png"
           alt="Logo"
         />
-
-        <img
-              class="img-width-logo-user"
-              src="../assets/img/Logo-user.png"
-              alt="Logo"
-            />
       </router-link>
+
+      <img
+          class="img-width-logo"
+          src="../assets/img/Header-logo.png"
+          alt="Logo"
+        />
 
       <div
         style="
@@ -25,6 +25,7 @@
         <div v-if="flag_support">
           <h4 class="support">Support</h4>
         </div>
+        
         <b-dropdown
           v-if="flag_menu"
           id="dropdown-header"
