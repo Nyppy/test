@@ -77,7 +77,7 @@ import VueCookies from "vue-cookies";
 import 'bootstrap-vue'
 
 export default {
-  name: "header",
+  name: "header-page",
   props: [
     "fixed", 
     "loader", 
@@ -137,7 +137,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 @media (orientation: landscape) {
   .img-width-logo {
     width: 60vh !important;
