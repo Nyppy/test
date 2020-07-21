@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <h4>XXX-VIEIO.COM</h4>
-    <Test/>
+    <HelloWorld/>
+    (_+_+_+_+_+_+_)
   </div>
 </template>
 
 <script>
-import Test from './components/Test.vue'
+import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    Test
+    HelloWorld
   }
 }
 </script>
