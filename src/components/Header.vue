@@ -1,5 +1,5 @@
 <template>
-  <div :class="[{ fix_position: flag_fixed }, 'header']">
+  <div :class="[{ fix_position: flag_fixed }, 'header-base']">
     <div class="wrapper-content m-2">
       <router-link :to="url.logo">
         <img
@@ -147,7 +147,7 @@ export default {
 .width-men {
   left: -64% !important;
 }
-.header {
+.header-base {
   display: flex;
   align-items: center;
   width: 100vw;
