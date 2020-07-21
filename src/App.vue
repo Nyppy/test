@@ -34,11 +34,6 @@ export default {
   },
   data() {
     const data = {
-      urlHeader: {
-        logo: '',
-        dashboard: '',
-        account: ''
-      }
     }
 
     return data;
